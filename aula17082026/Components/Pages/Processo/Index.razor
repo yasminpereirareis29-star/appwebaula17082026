@@ -1,0 +1,83 @@
+﻿@* namespace aula17082026.Components.Pages.Processo
+{
+    public class Index
+    {
+    }
+} *@
+@page "/processos"
+
+<PageTitle>Processos - Sistemas de Controle de Processos</PageTitle>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-1">Consulta de Processos</h2>
+    </div>
+</div>
+
+<div class="custom-table-card">
+    <div class=" table-responsive">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Número</th>
+                    <th>Interessado</th>
+                    <th>Assunto</th>
+                    <th>Situações</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2026/0001</td>
+                    <td>João Teixeira</td>
+                    <td class="text-truncate">Solicitação de isenção de IPTU</td>
+                    <td> 
+                        <i class="bi bi-clock"></i>Pendente
+                    </td>
+                    <td class="text-end">
+                        <div class="btn-group btn-group-sm">
+                            <a href="#" class="btn btn-light border text-primary" title="Editar">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <a href="#" class="btn btn-light border text-danger" title="Excluir">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </div>
+                    </td>
+
+
+
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>2026/0002</td>
+                    <td>Clayton Ferraz Andrade</td>
+                    <td class="text-truncate">Solicitação de isenção de IPTU</td>
+                    <td>
+                        <i class="bi bi-clock"></i>Pendente
+                    </td>
+                    <td class="text-end">
+                        <div class="btn-group btn-group-sm">
+                            <a href="#" class="btn btn-light border text-primary" title="Editar">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <a href="#" class="btn btn-light border text-danger" title="Excluir">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </div>
+                    </td>
+
+
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
