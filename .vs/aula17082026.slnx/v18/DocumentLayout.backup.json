@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\models\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\models\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "aula17082026\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\_Imports.razor",
+              "RelativeToolTip": "aula17082026\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-24T15:43:07.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\DAO\\ProcessoDAO.cs",
+              "RelativeDocumentMoniker": "aula17082026\\DAO\\ProcessoDAO.cs",
+              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\DAO\\ProcessoDAO.cs",
+              "RelativeToolTip": "aula17082026\\DAO\\ProcessoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T15:42:32.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Processo.cs",
+              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Models\\Processo.cs",
+              "RelativeDocumentMoniker": "aula17082026\\Models\\Processo.cs",
+              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Models\\Processo.cs",
+              "RelativeToolTip": "aula17082026\\Models\\Processo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T15:42:18.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 using aula17082026.Components;
 using aula17082026.Configs;
+using aula17082026.DAO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddRazorComponents()
 
 //configuração da conexão com o banco de dados MYSQL
 builder.Services.AddScoped<Conexao>();
+builder.Services.AddScoped<ProcessoDAO>();
 
 var app = builder.Build();
 

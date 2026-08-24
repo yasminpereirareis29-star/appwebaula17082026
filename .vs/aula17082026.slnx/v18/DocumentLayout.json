@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\pages\\processo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\pages\\processo\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\configs\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\configs\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\dao\\processodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|c:\\users\\2024102020008\\documents\\github\\appwebaula17082026\\aula17082026\\models\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA6EB80-B793-5C68-A9EB-E6413ABF0861}|aula17082026\\aula17082026.csproj|solutionrelative:aula17082026\\models\\processo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\Processo\\Index.razor",
-              "RelativeDocumentMoniker": "aula17082026\\Components\\Pages\\Processo\\Index.razor",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\Processo\\Index.razor",
-              "RelativeToolTip": "aula17082026\\Components\\Pages\\Processo\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:41:50.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Configs\\Conexao.cs",
-              "RelativeDocumentMoniker": "aula17082026\\Configs\\Conexao.cs",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Configs\\Conexao.cs",
-              "RelativeToolTip": "aula17082026\\Configs\\Conexao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T13:41:39.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotFound.razor",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\NotFound.razor",
-              "RelativeDocumentMoniker": "aula17082026\\Components\\Pages\\NotFound.razor",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\NotFound.razor",
-              "RelativeToolTip": "aula17082026\\Components\\Pages\\NotFound.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:41:24.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "aula17082026\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "aula17082026\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:41:17.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "aula17082026\\Components\\_Imports.razor",
               "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\_Imports.razor",
               "RelativeToolTip": "aula17082026\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:40:59.227Z",
+              "WhenOpened": "2026-08-24T15:43:07.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\DAO\\ProcessoDAO.cs",
+              "RelativeDocumentMoniker": "aula17082026\\DAO\\ProcessoDAO.cs",
+              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\DAO\\ProcessoDAO.cs",
+              "RelativeToolTip": "aula17082026\\DAO\\ProcessoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T15:42:32.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "aula17082026\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\Routes.razor",
-              "RelativeToolTip": "aula17082026\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:41:01.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\App.razor",
-              "RelativeDocumentMoniker": "aula17082026\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Components\\App.razor",
-              "RelativeToolTip": "aula17082026\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-24T13:40:59.95Z",
+              "Title": "Processo.cs",
+              "DocumentMoniker": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Models\\Processo.cs",
+              "RelativeDocumentMoniker": "aula17082026\\Models\\Processo.cs",
+              "ToolTip": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\Models\\Processo.cs",
+              "RelativeToolTip": "aula17082026\\Models\\Processo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T15:42:18.869Z",
               "EditorCaption": ""
             }
           ]
