@@ -526,11 +526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2024102020008\\source\\repos\\aula17082026\\aula17082026\\aula17082026.csproj",
+      "projectUniqueName": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\aula17082026.csproj",
       "projectName": "aula17082026",
-      "projectPath": "C:\\Users\\2024102020008\\source\\repos\\aula17082026\\aula17082026\\aula17082026.csproj",
+      "projectPath": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\aula17082026.csproj",
       "packagesPath": "C:\\Users\\2024102020008\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2024102020008\\source\\repos\\aula17082026\\aula17082026\\obj\\",
+      "outputPath": "C:\\Users\\2024102020008\\Documents\\GitHub\\appwebaula17082026\\aula17082026\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
