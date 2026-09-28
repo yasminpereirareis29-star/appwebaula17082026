@@ -1,4 +1,5 @@
-﻿using aula17082026.Configs;
+﻿using aula17082026.Components.Pages.Processo;
+using aula17082026.Configs;
 using aula17082026.Models;
 
 namespace aula17082026.DAO
@@ -22,7 +23,7 @@ namespace aula17082026.DAO
 
                 // Buscando a Conexão com o banco de dados
                 using var con = _conexao.GetConnection();
-                
+
 
                 string sql = "SELECT * FROM processos";
                 using var comando = con.CreateCommand();
@@ -39,19 +40,20 @@ namespace aula17082026.DAO
                     processo.Assunto = leitor.GetString("assunto_pro");
                     processo.Descricao = leitor.GetString("descricao_pro");
                     processo.Situacao = leitor.GetString("situacao_pro");
-
-                    //processo.Data = leitor["data_pro];
-
+                    processo.Data = DateOnly.FromDateTime(leitor.GetDateTime(leitor.GetOrdinal("data_pro")));
+                    //processo.Data = ["data_pro"];
                     lista.Add(processo);
                 }
 
 
                 return lista;
-            } catch
+            }
+            catch
             {
                 throw;
             }
         }
+        
 
         public void Inserir(Processo processo)
         {
@@ -59,23 +61,22 @@ namespace aula17082026.DAO
             {
                 using var con = _conexao.GetConnection();
                 string sql = @"INSERT INTO processos
-                (numero_pro, data_pro, interessado_pro,
-                assunto_pro, descricao_pro, situacao_pro)
+                (numero_pro, data_pro, interessado_pro, assunto_pro, descricao_pro, situacao_pro)
                 VALUES
-                (@numero, @data, @interessado, @assunt
-                o, @descricao, @situacao)";
-                //Passo a passo — Tela de Cadastro de Processo 2
+                (@Numero, @Data, @Interessado, @Assunto, @Descricao, @Situacao)";
+               
                 using var comando = con.CreateCommand();
                 comando.CommandText = sql;
-                comando.Parameters.AddWithValue("@numero",
+                comando.Parameters.AddWithValue("@Numero",
                 processo.Numero);
-                comando.Parameters.AddWithValue("@data", processo.Data!.Value.ToDateTime(TimeOnly.MinValue));
-                comando.Parameters.AddWithValue("@interessado ", processo.Interessado);
+
+                comando.Parameters.AddWithValue("@Data", processo.Data!.Value.ToDateTime(TimeOnly.MinValue));
+                comando.Parameters.AddWithValue("@Interessado", processo.Interessado);
            
-                comando.Parameters.AddWithValue("@assunto",processo.Assunto);
-                comando.Parameters.AddWithValue("@descricao", processo.Descricao);
+                comando.Parameters.AddWithValue("@Assunto", processo.Assunto);
+                comando.Parameters.AddWithValue("@Descricao", processo.Descricao);
                
-                comando.Parameters.AddWithValue("@situacao", processo.Situacao);
+                comando.Parameters.AddWithValue("@Situacao", processo.Situacao);
                
                 comando.ExecuteNonQuery();
             }
@@ -84,6 +85,7 @@ namespace aula17082026.DAO
                 throw;
             }
         }
+
 
     }
 }

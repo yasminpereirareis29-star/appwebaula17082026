@@ -10,12 +10,22 @@
 
 <PageTitle>Processos - Sistemas de Controle de Processos</PageTitle>
 
-<div class="d-flex justify-content-between align-items-center mb-4">
+@* <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
         <h2 class="fw-bold mb-1">Consulta de Processos</h2>
     </div>
+</div> *@
+<div class="d-flex justify-content-between align-items-cent
+    er mb-4">
+    <div>
+        <h2 class="fw-bold mb-1">Consulta de Processos</h2>
+    </div>
+    <div>
+        <a href="/processos/cadastro" class="btn btn-primary">
+            <i class="bi bi-plus-lg"></i> Novo Processo
+        </a>
+    </div>
 </div>
-
 <div class="custom-table-card">
     <div class=" table-responsive">
         <table class="table align-middle">
@@ -64,7 +74,7 @@
 
 @code {
 
-    private List<Processo>? processos;
+    private List<Processo> processos = new();
 
 
     protected override void OnInitialized()
@@ -81,3 +91,4 @@
     }
 
 }
+
