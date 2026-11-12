@@ -1,6 +1,7 @@
 ﻿using aula17082026.Components.Pages.Processo;
 using aula17082026.Configs;
 using aula17082026.Models;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace aula17082026.DAO
 {
@@ -85,6 +86,33 @@ namespace aula17082026.DAO
                 throw;
             }
         }
+
+        public Processo? ObterPorId(int id)
+        {
+            using var con = _conexao.GetConnection();
+            const string sql = @"SELECT id_pro, numero_pro, data_pro,interessado_pro,assunto_pro, descricao_pro, situacao_pro
+            FROM processos
+            WHERE id_pro = @id";
+            using var comando = con.CreateCommand();
+            comando.CommandText = sql;
+            comando.Parameters.AddWithValue("@id", id);
+            using var leitor = comando.ExecuteReader();
+            if (!leitor.Read())
+            {
+                return null;
+            }
+            return new Processo
+            {
+                Id = leitor.GetInt32("id_pro"),
+                Numero = leitor.GetString("numero_pro"),
+                Data = DateOnly.FromDateTime(leitor.GetDateTime("data_pro")),
+                 Interessado = leitor.GetString("interessado_pro"),
+                Assunto = leitor.GetString("assunto_pro"),
+                Descricao = DAOHelper.GetString(leitor, "descricao_pro"),
+                Situacao = leitor.GetString("situacao_pro")
+            };
+        }
+
 
 
     }
