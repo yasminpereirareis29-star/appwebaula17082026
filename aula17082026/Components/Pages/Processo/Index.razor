@@ -1,20 +1,11 @@
-﻿@* namespace aula17082026.Components.Pages.Processo
-{
-    public class Index
-    {
-    }
-} *@
+﻿
 @page "/processos"
 @rendermode InteractiveServer
 @inject ProcessoDAO dao;
 
 <PageTitle>Processos - Sistemas de Controle de Processos</PageTitle>
 
-@* <div class="d-flex justify-content-between align-items-center mb-4">
-    <div>
-        <h2 class="fw-bold mb-1">Consulta de Processos</h2>
-    </div>
-</div> *@
+
 <div class="d-flex justify-content-between align-items-cent
     er mb-4">
     <div>
@@ -31,11 +22,11 @@
         <table class="table align-middle">
             <thead>
                 <tr>
-                    <th>Id</th>
+                    <th>ID</th>
                     <th>Número</th>
                     <th>Interessado</th>
                     <th>Assunto</th>
-                    <th>Situações</th>
+                    <th>Situação</th>
                     <th>Ações</th>
                 </tr>
             </thead>
@@ -50,16 +41,18 @@
                     <td>
                         <i class="bi bi-clock"></i>@p.Situacao
                     </td>
-                    <td class="text-end">
-                        <div class="btn-group btn-group-sm">
-                            <a href="#" class="btn btn-light border text-primary" title="Editar">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <a href="#" class="btn btn-light border text-danger" title="Excluir">
-                                <i class="bi bi-trash"></i>
-                            </a>
-                        </div>
-                    </td>
+                        <td class="text-end">
+                            <div class="btn-group btn-group-sm">
+                                <a href="@($"/processos/editar/{p.Id}")" class="btn btn-light
+                                    border text-primary" title="Editar">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a href="#" class="btn btn-light border text-danger"
+                                   title="Excluir">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
+                        </td>
                 </tr>
             }
 

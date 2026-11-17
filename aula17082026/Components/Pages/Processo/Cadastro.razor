@@ -1,4 +1,5 @@
 ﻿@page "/processos/cadastro"
+@page "/processos/editar/{Id:int}"
 @rendermode InteractiveServer
 @inject ProcessoDAO dao
 @inject NavigationManager NavigationManager
@@ -77,13 +78,63 @@
         </div>
     </EditForm>
 </div>
-@code {
-    private Processo processo = new();
+<div class="col-md-4">
+    <label for="situacao" class="form-label">Situação</label>
+    <InputSelect id="situacao" class="form-select" @bind
+                 Value="processo.Situacao">
+        <option value="Aberto">Aberto</option>
+        <option value="Em analise">Em análise</option>
+        <option value="Pendente">Pendente</option>
+        <option value="Concluido">Concluído</option>
+        <option value="Arquivado">Arquivado</option>
+    </InputSelect>
+    <ValidationMessage For="() => processo.Situacao" />
+</div>
 
-    private void Salvar()
+@code {
+
+    // private Processo processo = new();
+
+    // private void Salvar()
+    // {
+    //     dao.Inserir(processo);
+    //     // Retorna a página de processos após salvar
+    //     NavigationManager.NavigateTo("/processos");
+
+
+    // }
+    private Processo processo = new();
+    private bool processoEncontrado = true;
+    [Parameter]
+    public int? Id { get; set; }
+    private string Titulo => Id.HasValue ? "Editar Processo" : "Cadastro de Processo";
+     protected override void OnParametersSet()
+     {
+     if (!Id.HasValue)
     {
-        dao.Inserir(processo);
-        // Retorna a página de processos após salvar
-        NavigationManager.NavigateTo("/processos");
+    processo = new Processo();
+    processoEncontrado = true;
+     return;
     }
+    var processoCarregado = dao.ObterPorId(Id.Value);
+    processoEncontrado = processoCarregado is not null;
+    if (processoCarregado is not null)
+    {
+     processo = processoCarregado;
+     }
+    }
+   private void Salvar()
+   {
+   if (Id.HasValue)
+   {
+   dao.Atualizar(processo);
+   }
+   else
+  {
+  dao.Inserir(processo);
+  }
+  NavigationManager.NavigateTo("/processos");
+  }
+
+    
 }
